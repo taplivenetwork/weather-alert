@@ -1,8 +1,8 @@
-# Weather Alert System - Project Walkthrough
+# SentinelWeather - Project Walkthrough
 
 ## Summary
 
-Successfully set up the complete Weather Alert System project with full-stack TypeScript implementation based on the TapLive Network PRD.
+Successfully set up the complete SentinelWeather project with full-stack TypeScript implementation - an intelligent weather warning system for outdoor safety.
 
 ## Project Structure Created
 

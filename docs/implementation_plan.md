@@ -1,8 +1,8 @@
-# Weather Alert System - Implementation Plan
+# SentinelWeather - Implementation Plan
 
 ## Project Overview
 
-Building an MVP of the Weather Alert System for TapLive Network based on the comprehensive PRD. This implementation focuses on **Phase 1 (Foundation)** and **Phase 2 (Alert System)** to deliver a functional prototype with core features.
+Building an MVP of SentinelWeather - an intelligent weather warning system for outdoor safety. This implementation focuses on **Phase 1 (Foundation)** and **Phase 2 (Alert System)** to deliver a functional prototype with core features.
 
 ## User Review Required
 
@@ -10,7 +10,7 @@ Building an MVP of the Weather Alert System for TapLive Network based on the com
 > **API Key Required**: You will need to obtain an OpenWeatherMap API key (free tier available at https://openweathermap.org/api). This should be set as `OPENWEATHERMAP_API_KEY` in the `.env` file.
 
 > [!WARNING]  
-> **Scope Limitation**: This MVP covers core weather data retrieval, alert generation, and notification UI. Full VR/AR integration, ML-based predictions, and advanced dispatch features will require additional phases.
+> **Scope Limitation**: This MVP covers core weather data retrieval, alert generation, and notification UI. Route planning, ML-based predictions, and advanced GIS features will require additional phases.
 
 ---
 
@@ -291,7 +291,7 @@ weather-alert-system/
 
 ## Notes
 
-- **MVP Scope**: This plan covers core functionality. VR/AR overlays, ML predictions, and advanced dispatch algorithms are Phase 2+ items.
+- **MVP Scope**: This plan covers core functionality. Route planning, ML predictions, and advanced GIS integration are Phase 2+ items.
 - **API Costs**: OpenWeatherMap free tier allows 1,000 calls/day - sufficient for development.
 - **Database**: PostgreSQL with JSONB for flexible weather data storage.
 - **Real-time**: WebSocket for instant alert delivery to connected clients.

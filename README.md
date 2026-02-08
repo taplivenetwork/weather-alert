@@ -2,7 +2,7 @@
 
 A comprehensive real-time weather monitoring and early warning system providing AI-powered graded alerts for outdoor activities and safety-critical operations.
 
-> **Carefully crafted, dedicated to those who need safety protection.**
+> **Carefully crafted to ensure the safety of outdoor enthusiasts.**
 
 ---
 
@@ -139,7 +139,7 @@ Operations command center with system health stats, alert frequency charts, emer
 > *Design: Space Grotesk font, glassmorphism cards, neon green (#0df20d) accent theme*
 
 #### Team Tracker (`/team`)
-**Expedition Coordination** - Multi-person tracking with real-time vitals and location data.
+**Expedition Coordination** - Multi-person tracking with real-time team location, distance, and direction. Location data (including movement trajectory and corresponding timestamps) along with time information is simultaneously saved and uploaded to a remote server. This helps in handling and predicting emergencies — if someone gets lost, rescue personnel can roughly pinpoint their location based on historical tracking data.
 
 - 🗺️ **Topographic Map** - SVG-based terrain visualization with contour lines
 - 📍 **Team Markers** - Clickable avatars with status indicators (pulsing for leader)

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 
 export default function AdminDashboard() {
-    const [broadcastMessage, setBroadcastMessage] = useState('');
     const [timeRange, setTimeRange] = useState('24H');
 
     const chartData = [
